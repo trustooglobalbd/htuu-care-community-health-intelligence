@@ -1,12 +1,12 @@
-# 7887 Integration
+# Cloudflare
 
-This module defines the controlled interface between Htuu Care / Community Health Intelligence and the 7887 Healthcare Call Center.
+Planned Cloudflare components:
+- Workers — API/backend logic
+- D1 — structured application data where appropriate
+- Queues — asynchronous processing
+- R2 — reports/files where required
+- Access — restricted dashboard access
+- WAF — API/web protection
+- Pages — dashboard frontend if appropriate
 
-The first implementation should use approved, minimized, aggregated data only.
-
-Do not commit:
-- call recordings
-- phone numbers
-- names
-- raw clinical notes
-- API credentials
+Exact services will be finalized during technical implementation.
