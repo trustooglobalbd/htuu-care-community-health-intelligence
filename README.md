@@ -1,12 +1,10 @@
-# Cloudflare
+# Public Health Intelligence Dashboard
 
-Planned Cloudflare components:
-- Workers — API/backend logic
-- D1 — structured application data where appropriate
-- Queues — asynchronous processing
-- R2 — reports/files where required
-- Access — restricted dashboard access
-- WAF — API/web protection
-- Pages — dashboard frontend if appropriate
+Planned dashboard views:
+- health-information topic trends
+- priority signals
+- time-series summaries
+- awareness response tracking
+- aggregated/non-identifying indicators
 
-Exact services will be finalized during technical implementation.
+The dashboard must not expose individual user information.
