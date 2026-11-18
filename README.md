@@ -1,10 +1,11 @@
-# Public Health Intelligence Dashboard
+# Trend Analysis
 
-Planned dashboard views:
-- health-information topic trends
-- priority signals
-- time-series summaries
-- awareness response tracking
-- aggregated/non-identifying indicators
+The trend-analysis module identifies changes in aggregated health-information demand.
 
-The dashboard must not expose individual user information.
+Initial MVP:
+- daily/weekly counts
+- percentage change
+- rolling averages
+- simple threshold-based signal flagging
+
+Outputs should describe demand trends, not diagnose disease or predict outbreaks.
