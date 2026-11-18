@@ -1,18 +1,11 @@
-# Topic Classification
+# Htuu Care Telegram Bot
 
-Classify health-information interactions into safe, non-diagnostic topic categories.
+This module will contain the Htuu Care Telegram health-information and navigation bot.
 
-Initial categories:
-- general_health
-- maternal_child_health
-- sexual_reproductive_health
-- mental_wellbeing
-- nutrition_lifestyle
-- infectious_disease_information
-- noncommunicable_disease_information
-- heat_environmental_health
-- medication_information
-- referral_service_navigation
-- other
-
-Classification should be reviewed and improved using clinician/public-health input.
+Planned capabilities:
+- health information menu
+- multilingual content
+- safe health-information Q&A
+- referral/navigation
+- escalation to 7887
+- structured, non-identifying interaction metadata for the intelligence layer
