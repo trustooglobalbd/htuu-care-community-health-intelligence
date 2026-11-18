@@ -1,11 +1,18 @@
-# Trend Analysis
+# Topic Classification
 
-The trend-analysis module identifies changes in aggregated health-information demand.
+Classify health-information interactions into safe, non-diagnostic topic categories.
 
-Initial MVP:
-- daily/weekly counts
-- percentage change
-- rolling averages
-- simple threshold-based signal flagging
+Initial categories:
+- general_health
+- maternal_child_health
+- sexual_reproductive_health
+- mental_wellbeing
+- nutrition_lifestyle
+- infectious_disease_information
+- noncommunicable_disease_information
+- heat_environmental_health
+- medication_information
+- referral_service_navigation
+- other
 
-Outputs should describe demand trends, not diagnose disease or predict outbreaks.
+Classification should be reviewed and improved using clinician/public-health input.
